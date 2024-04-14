@@ -10,7 +10,11 @@ const getMedian = (array) => {
   return median;
 };
 
-const getMode = (array) => {};
+const getMode = (array) => {
+  const counts = {};
+  array.forEach((el) => {});
+  return array;
+};
 
 const calculate = () => {
   const value = document.querySelector("#numbers").value;
